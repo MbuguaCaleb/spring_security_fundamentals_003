@@ -22,6 +22,7 @@ public class CustomAuthenticationFilter extends OncePerRequestFilter {
 
     private final CustomAuthenticationManager customAuthenticationManager;
 
+    //It is the filter that takes the reposibility to call the manager,
     @Override
     protected void doFilterInternal(HttpServletRequest request,
                                     HttpServletResponse response,

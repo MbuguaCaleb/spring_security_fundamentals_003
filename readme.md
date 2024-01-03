@@ -1,3 +1,12 @@
+**Project**
+
+```agsl
+Spring security Project with my custom authentication so as to understand the filter chain.
+
+Authentication mechanism where the request, must have the word secret in the header other-wise the 
+request will not be authorized,
+```
+
 **Task**
 
 
@@ -7,9 +16,6 @@
 
 
 ```agsl
-Authentication mechanism where the request, must have the word secret in the header other-wise the 
-request will not be authorized,
-
 
 We shall interact with the 
  

@@ -18,7 +18,8 @@ public class CustomAuthenticationManager implements AuthenticationManager {
     @Override
     public Authentication authenticate(Authentication authentication) throws AuthenticationException {
 
-        //will call my provider
+        //will call my provider // i can have multiple providers with multiple supports
+        //the authenticate method in my manager can take in many providers.
         if(provider.supports(authentication.getClass())){
             return provider.authenticate(authentication);
         }
